@@ -1,37 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HabitsReview
+
+HabitsReview is a web personal project that allows you to review and visualize your daily habits over the course of a year. It provides a calendar view with the ability to track and analyze your habits' completion dates.
+
+## Features
+
+- View your habits on a month-by-month calendar.
+- Track and analyze completion dates for various habits.
+- Easily toggle between different habits for review.
+- Built with React and React-Day-Picker.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Replace `habitkit_export.json` with your own habit data.
+4. Customize habit names and background colors in the code.
+5. Run the app using `npm start`.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Usage
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Click on habit buttons to highlight completion dates.
+- Toggle between different habits for review.
+- Visualize your habits' progress over the year.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Feel free to contribute to this project by submitting pull requests or issues.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Acknowledgments
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Inspired by the HabitKit app that allowed me to track my habits throughout the year.
+- Built with React and React-Day-Picker.
 
-## Deploy on Vercel
+Happy habit tracking!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # habitsreview
